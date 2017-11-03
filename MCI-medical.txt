@@ -1,0 +1,393 @@
+<div>
+        <style>
+            .clear {
+                clear: both;
+            }
+
+            .bulletimg {
+                margin-right: 10px;
+            }
+
+            .sliderbtn {
+                padding: 10px;
+                margin: 5px;
+                color: #fff;
+                text-align: center;
+                cursor: pointer;
+            }
+
+            .padding10 {
+                padding: 10px;
+            }
+
+            .style1 {
+                background: #f7f7f7;
+                padding: 15px;
+                box-shadow: #999 5px 3px 10px !important;
+                border-left: 5px solid #d6bb39;
+            }
+
+            .middle-bg p {
+                line-height: 26px;
+            }
+
+            .accountDetails td {
+                padding: 5px;
+            }
+
+            .middle-bg h3 {
+                font-size: 20px;
+                padding: 5px 0px 8px 0px;
+            }
+
+            #accordion > .panel-default > .panel-heading {
+                background-image: -webkit-linear-gradient(top,#f5f5f5 0,#e8e8e8 100%) !important;
+                background-image: -o-linear-gradient(top,#f5f5f5 0,#e8e8e8 100%) !important;
+                background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#e8e8e8)) !important;
+                background-image: linear-gradient(to bottom,#f5f5f5 0,#e8e8e8 100%) !important;
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0) !important;
+                background-repeat: repeat-x !important;
+            }
+
+            .panel-heading .accordion-toggle:after {
+                font-family: "Glyphicons Halflings";
+                content: "\e114";
+                float: right;
+                color: #337ab7;
+            }
+
+            .panel-heading .accordion-toggle.collapsed:after {
+                content: "\e080";
+            }
+
+            .panel-group .panel {
+                margin: 0 auto;
+            }
+
+            .panel-default {
+                box-shadow: #999 0px 0px 1px;
+            }
+
+            .borderTop {
+                border-top: 1px solid #ccc;
+            }
+
+            .middle-bg h2 {
+                font-size: 20px;
+            }
+
+            /*#accordion1 .panel-default > .panel-heading {
+                background: none !important;
+            }*/
+
+            #accordion1.panel-group {
+                margin-bottom: 0px;
+            }
+
+            #accordion1 .panel-title {
+                font-size: 14px !important;
+            }
+
+            #accordion1 .panel {
+                border: none !important;
+            }
+
+            .collapse-border {
+                border-top: 1px solid #ccc;
+            }
+
+            .nested-accordion {
+                border: none;
+                padding: 0 0 10px 0;
+            }
+
+            .color1 {
+                background: #d3eaff;
+            }
+
+            .color2 {
+                background: #d3ffff;
+            }
+
+            .color3 {
+                background: #fcffd3;
+            }
+
+            .color4 {
+                background: #ffd3d3;
+            }
+
+                .color1:hover, .color2:hover, .color3:hover, .color4:hover, #accordion1 > .panel-default > .color5:hover, #accordion1 > .panel-default > .color6:hover, #accordion1 > .panel-default > .color7:hover {
+                    background: #f5faff !important;
+                }
+
+            #accordion1 > .panel-default > .color5 {
+                background: #fbf4a2 !important;
+            }
+
+            #accordion1 > .panel-default > .color6 {
+                background: #fbe4a2 !important;
+            }
+
+            #accordion1 > .panel-default > .color7 {
+                background: #c9fde0 !important;
+            }
+        </style>
+        <br />
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse1">JSS University and Medical College - Administration</a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <ul class="list-group">
+                            <li class="list-group-item color1">
+                                <a href="http://www.jssuni.edu.in/JSSWeb/WebShowFromDB.aspx?MID=11003&CID=0&PID=10001" target="_blank">
+                                    <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                    Vice Chancellor
+                                </a>
+                            </li>
+                            <li class="list-group-item color2">
+                                <a href="http://www.jssuni.edu.in/JSSWeb/WebShowFromDB.aspx?MODE=SSMD&PID=10001&CID=2&DID=67&MID=11005&SMID=0" target="_blank">
+                                    <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                    Registrar
+                                </a>
+                            </li>
+                            <li class="list-group-item color3">
+                                <a href="http://www.jssuni.edu.in/JSSWeb/WebShowFromDB.aspx?MODE=SSMD&PID=10002&CID=4&MID=0&SMID=10401" target="_blank">
+                                    <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                    Administrators
+                                </a>
+                            </li>
+                            <li class="list-group-item color4">
+                                <a href="http://www.jssuni.edu.in/JSSWeb/WebShowFromDB.aspx?MODE=SSMD&PID=10002&CID=4&MID=0&SMID=10402" target="_blank">
+                                    <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                    Departments & Faculty
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse2">Medical College - Academic Information</a>
+                    </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <ul class="list-group">
+                            <li class="list-group-item nested-accordion">
+                                <div class="panel-group" id="accordion1">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading color5">
+                                            <h4 class="panel-title">
+                                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapse2_1">Medical College - Academic Information</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse2_1" class="panel-collapse collapse collapse-border">
+                                            <div class="panel-body">
+                                                <ul class="list-group">
+                                                    <li class="list-group-item">
+                                                        <a href="UDData/Docs/UG Admission 2016-17.pdf" target="_blank">
+                                                            <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                                            2016 - 2017
+                                                            <img src="http://www.jssuni.edu.in/icons/pdf.png" width="20" style="float: right;">
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <a href="UDData/Docs/UG Admission 2015-16.pdf" target="_blank">
+                                                            <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                                            2015 - 2016
+                                                            <img src="http://www.jssuni.edu.in/icons/pdf.png" width="20" style="float: right;">
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <a href="UDData/Docs/UG Admission 2014-15.pdf" target="_blank">
+                                                            <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                                            2014 - 2015
+                                                            <img src="http://www.jssuni.edu.in/icons/pdf.png" width="20" style="float: right;">
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading color6">
+                                            <h4 class="panel-title">
+                                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapse2_2">PG Degree / Diploma - Meritwise students list</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse2_2" class="panel-collapse collapse collapse-border">
+                                            <div class="panel-body">
+                                                <ul class="list-group">
+                                                    <li class="list-group-item">
+                                                        <a href="UDData/Docs/PG Degree  Diploma - Meritwise Students list - 2017-18.pdf" target="_blank">
+                                                            <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                                            2017 - 2018
+                                                            <img src="http://www.jssuni.edu.in/icons/pdf.png" width="20" style="float: right;">
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <a href="UDData/Docs/PG Degree & Diploma Admission 2016-17.pdf" target="_blank">
+                                                            <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                                            2016 - 2017
+                                                            <img src="http://www.jssuni.edu.in/icons/pdf.png" width="20" style="float: right;">
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <a href="UDData/Docs/PG Degree & Diploma Admission 2016-17.pdf" target="_blank">
+                                                            <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                                            2015 - 2016
+                                                            <img src="http://www.jssuni.edu.in/icons/pdf.png" width="20" style="float: right;">
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading color7">
+                                            <h4 class="panel-title">
+                                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapse2_3">Super Speciality - Meritwise students list</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse2_3" class="panel-collapse collapse collapse-border">
+                                            <div class="panel-body">
+                                                <ul class="list-group">
+                                                    <li class="list-group-item">
+                                                        <a href="UDData/Docs/Super-Speciality-Meritwisestudents-list-2016-17.PDF" target="_blank">
+                                                            <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                                            2016 - 2017
+                                                            <img src="http://www.jssuni.edu.in/icons/pdf.png" width="20" style="float: right;">
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <a href="UDData/Docs/Super-Speciality-Meritwisestudents-list-2015-16.PDF" target="_blank">
+                                                            <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                                            2015 - 2016
+                                                            <img src="http://www.jssuni.edu.in/icons/pdf.png" width="20" style="float: right;">
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="UDData/Docs/Details of the Sanctioned intake  capacity of Various Courses  UG as well as PGs & Superspeciality.pdf" target="_blank">
+                                    <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                    Details of the Sanctioned intake  capacity of Various Courses, UG & PG & Superspeciality
+                                    <img src="http://www.jssuni.edu.in/icons/pdf.png" width="20" style="float: right;">
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="UDData/Docs/Publications-2015-16.pdf" target="_blank">
+                                    <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                    Publications – One year - 2015 - 16
+                                    <img src="http://www.jssuni.edu.in/icons/pdf.png" width="20" style="float: right;">
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="UDData/Docs/CME-Workshop.pdf" target="_blank">
+                                    <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                    CME, Conferences And academic activities conducted by the college
+                                    <img src="http://www.jssuni.edu.in/icons/pdf.png" width="20" style="float: right;">
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="UDData/Docs/Awards-Achievements.pdf" target="_blank">
+                                    <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                    Awards & Achievements by faculty & students
+                                    <img src="http://www.jssuni.edu.in/icons/pdf.png" width="20" style="float: right;">
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="UDData/Docs/RESULT ANALYSIS.pdf" target="_blank">
+                                    <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                    Result Analysis
+                                    <img src="http://www.jssuni.edu.in/icons/pdf.png" width="20" style="float: right;">
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="UDData/Docs/Status-Recognition.pdf" target="_blank">
+                                    <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                    Status of Recognition of all courses
+                                    <img src="http://www.jssuni.edu.in/icons/pdf.png" width="20" style="float: right;">
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="UDData/Docs/consent of affiliation.pdf" target="_blank">
+                                    <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                    Consent of Affiliation
+                                    <img src="http://www.jssuni.edu.in/icons/pdf.png" width="20" style="float: right;">
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="UDData/Docs/Clinical Materials.pdf" target="_blank">
+                                    <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                    Clinical Materials
+                                    <img src="http://www.jssuni.edu.in/icons/pdf.png" width="20" style="float: right;">
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="UDData/Docs/Citizen Charter.pdf" target="_blank">
+                                    <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                    Citizen Charter
+                                    <img src="http://www.jssuni.edu.in/icons/pdf.png" width="20" style="float: right;">
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="UDData/Docs/Infrastructure Facilities.pdf" target="_blank">
+                                    <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                    Infrastructure Facilities
+                                    <img src="http://www.jssuni.edu.in/icons/pdf.png" width="20" style="float: right;">
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="UDData/Docs/Student Feedback.pdf" target="_blank">
+                                    <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                    Student Feedback
+                                    <img src="http://www.jssuni.edu.in/icons/pdf.png" width="20" style="float: right;">
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="UDData/Docs/Compliance Verification - Dept. of IHBT.pdf" target="_blank">
+                                    <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                    Compliance Verification - Dept. of IHBT
+                                    <img src="http://www.jssuni.edu.in/icons/pdf.png" width="20" style="float: right;">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse3">Medical College - Committees</a>
+                    </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a href="UDData/Docs/Anti Ragging Committee.pdf" target="_blank">
+                                    <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                    Anti-Ragging Committee, Toll Free Number to Report Ragging: 1800 - 4258340
+                                    <img src="http://www.jssuni.edu.in/icons/pdf.png" width="20" style="float: right;">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+    </div>
