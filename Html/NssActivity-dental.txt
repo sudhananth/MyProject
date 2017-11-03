@@ -1,0 +1,175 @@
+<div>
+        <style>
+            .clear {
+                clear: both;
+            }
+
+            .bulletimg {
+                margin-right: 10px;
+            }
+
+            .sliderbtn {
+                padding: 10px;
+                margin: 5px;
+                color: #fff;
+                text-align: center;
+                cursor: pointer;
+            }
+
+            .color1 {
+                background: #e67817;
+            }
+
+                .color1:hover {
+                    background: #ca7123;
+                }
+
+            .color2 {
+                background: #0054a4;
+            }
+
+                .color2:hover {
+                    background: #0d4275;
+                }
+
+            .color3 {
+                background: #39bb5b;
+            }
+
+                .color3:hover {
+                    background: #1c7b35;
+                }
+
+            .padding10 {
+                padding: 10px;
+            }
+
+            .style1 {
+                background: #f7f7f7;
+                padding: 15px;
+                box-shadow: #999 5px 3px 10px !important;
+                border-left: 5px solid #d6bb39;
+            }
+
+            .middle-bg p {
+                line-height: 26px;
+            }
+
+            .accountDetails td {
+                padding: 5px;
+            }
+
+            .middle-bg h3 {
+                font-size: 20px;
+                padding: 5px 0px 8px 0px;
+            }
+
+            .panel-default > .panel-heading {
+                background-image: -webkit-linear-gradient(top,#f5f5f5 0,#e8e8e8 100%) !important;
+                background-image: -o-linear-gradient(top,#f5f5f5 0,#e8e8e8 100%) !important;
+                background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#e8e8e8)) !important;
+                background-image: linear-gradient(to bottom,#f5f5f5 0,#e8e8e8 100%) !important;
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0) !important;
+                background-repeat: repeat-x !important;
+            }
+
+            .panel-heading .accordion-toggle:after {
+                font-family: "Glyphicons Halflings";
+                content: "\e114";
+                float: right;
+                color: #337ab7;
+            }
+
+            .panel-heading .accordion-toggle.collapsed:after {
+                content: "\e080";
+            }
+
+            .panel-group .panel {
+                margin: 0 auto;
+            }
+
+            .panel-default {
+                box-shadow: #999 0px 0px 1px;
+            }
+
+            .borderTop {
+                border-top: 1px solid #ccc;
+            }
+
+            .middle-bg h2 {
+                font-size: 20px;
+            }
+        </style>
+        <br />
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse1">NSS Activities 2015 - 2016</a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <div class="style1">
+                            <h2 style="text-align:left;">NSS Activities 2015 - 2016</h2>
+                            <p>The NSS JSS Dental College unit participated in 7 days long National Integration camp organized jointly by JSS University of Govt. of Karnataka. 10 students Volunteers with one NSS programme officer participated in programme from 1st to 7th December 2016.</p>
+                            <p>Over 150 NSS Volunteers & 15 Programme officer from different parts of the country participated in the programme, various activities including Flag hosting, Yoga, Meditation, Planting of sapling, Cleanliness drive and other Cultural programme was organized, apart from this guest lecturers were organized on a wide range of topics at the event.</p>
+                            <p>The Dental unit actively participated in the programme and won lot of prize.</p>
+                        </div>
+                        <hr class="clear" />
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a href="UDData/Docs/2015 nss report.pdf" target="_blank">
+                                    <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                    Detailed Narrative Report of Nss Special Camp Held From 06-03-2015 - To - 12-03-2015
+                                    <img src="http://www.jssuni.edu.in/icons/pdf.png" width="20" style="float: right;">
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="UDData/Docs/2016 NSS report.pdf" target="_blank">
+                                    <img src="UDData/UDImages/bullet.png" class="bulletimg" />
+                                    Detailed Narrative Report of Nss Special Camp Held From 14-03-2016 -To- 20-03-2016 
+                                    <img src="http://www.jssuni.edu.in/icons/pdf.png" width="20" style="float: right;">
+                                </a>
+                            </li>
+                        </ul>
+                        <hr class="clear" />
+                        <div class="col-sm-12 padding-none">
+                            <div class="col-sm-6"><img src="UDData/UDImages/NSS9.jpg" class="center-block featurette-image img-responsive photo"></div>
+                            <div class="col-sm-6"><img src="UDData/UDImages/NSS10.jpg" class="center-block featurette-image img-responsive photo"></div>
+                            <div class="col-sm-6"><img src="UDData/UDImages/NSS11.jpg" class="center-block featurette-image img-responsive photo"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-heading borderTop">
+                    <h4 class="panel-title">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse2">NSS Activities 2014 - 2015</a>
+                    </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="style1">
+                            <h2 style="text-align:left;">NSS Activities 2014 - 2015</h2>
+                            <p>JSS Dental College & Hospital, a constituent college of JSS University conducted NSS camp from 17th to 23rd of February 2014 in Belagola.</p>
+                            <p>Dr B Manjunatha, Registrar, JSS University flagged off a week long service program in which Dental, Medical, Ayurvedic checkup and treatment where conducted for about 800 people out of which 250 received the treatments like scaling, filling, extraction,70 echocardiogram and 83 were benefited by ayurvedic treatment. Free medicine were distributed for the patients in need.</p>
+                            <p>The people from Belagola and school children were also benefited by speeches in various topics such as women health, food and nutrition, life skills, HIV & AIDS and youth of India by renowned resource person. The schedule also included various activities such as drawing competition, debate, pick and speak, essay writing, street plays and various other extracurricular activities for the government school children.</p>
+                            <p>It was Dr B Nandlal, Principal, JSS Dental College and Hospital who stood as a guide force with Dr .Ravi M B, NSS Co-ordinator to accomplish this massive attempt. Dr Sundheendra Bhatt, Deputy Controller (Examination), JSS University graced the valedictory function.</p>
+                            <p>The NSS camp was lead by 50 volunteers other doctors from JSS institution. This event lead a strong part to the volunteers for their “LEARING THROUGH EXPERIENCE” and left a strong sense of “NOT ME BUT YOU”- a notion that bears its significant through the NSS movements.</p>
+                        </div>
+                        <hr class="clear" />
+                        <div class="col-sm-12 padding-none">
+                            <div class="col-sm-6"><img src="UDData/UDImages/NSS1.jpg" class="center-block featurette-image img-responsive photo"></div>
+                            <div class="col-sm-6"><img src="UDData/UDImages/NSS2.jpg" class="center-block featurette-image img-responsive photo"></div>
+                            <div class="col-sm-6"><img src="UDData/UDImages/NSS3.jpg" class="center-block featurette-image img-responsive photo"></div>
+                            <div class="col-sm-6"><img src="UDData/UDImages/NSS4.jpg" class="center-block featurette-image img-responsive photo"></div>
+                            <div class="col-sm-6"><img src="UDData/UDImages/NSS5.jpg" class="center-block featurette-image img-responsive photo"></div>
+                            <div class="col-sm-6"><img src="UDData/UDImages/NSS6.jpg" class="center-block featurette-image img-responsive photo"></div>
+                            <div class="col-sm-6"><img src="UDData/UDImages/NSS7.jpg" class="center-block featurette-image img-responsive photo"></div>
+                            <div class="col-sm-6"><img src="UDData/UDImages/NSS8.jpg" class="center-block featurette-image img-responsive photo"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+    </div>
